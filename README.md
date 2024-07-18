@@ -4,6 +4,8 @@
 ![Static Badge](https://img.shields.io/badge/license-MIT-green?link=LICENSE)
 ![Static Badge](https://img.shields.io/badge/status-Work%20In%20Progress-yellow)
 
+![Layout Preview](/assets/img/Portfolio%20mockup.jpg)
+
 ## 💻 About
 
 This projet is a Clone of Untitle UI Example Landing Page implemented in HTML, SCSS, and JavaScript. Made for study purposes. [👌 Get the layout Here!](https://www.figma.com/community/file/1020079203222518115)
