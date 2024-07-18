@@ -1,0 +1,54 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+
+    padding: 2rem 0;
+
+    background: $white;
+    border-bottom: 0.1rem solid $grey-100;
+
+    .gridWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .leftContent {
+            display: flex;
+            align-items: center;
+            gap: 4rem;
+
+            nav {
+                font-size: 1.6rem;
+                font-weight: 600;
+                color: $grey-600;
+
+                .menu {
+                    display: flex;
+                    align-items: center;
+                    gap: 3.2rem;
+
+                    .menu-item {
+                        display: flex;
+                        align-items: center;
+                        gap: 0.8rem;
+                        transition: color 0.3s ease;
+                        &:hover {
+                            color: $grey-400;
+                        }
+                    }
+                }
+            }
+        }
+
+        .rightContent {
+            img {
+                height: 4rem;
+                width: 4rem;
+                border-radius: $radius-rounded;
+            }
+        }
+    }
+}

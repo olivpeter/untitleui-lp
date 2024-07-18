@@ -12,9 +12,9 @@ $brand-800: #53389e;
 $brand-900: #42307d;
 
 // GREYS
-$gray-25: #fcfcfd;
-$gray-50: #f9fafb;
-$gray-100: #f2f4f7;
+$grey-25: #fcfcfd;
+$grey-50: #f9fafb;
+$grey-100: #f2f4f7;
 $grey-200: #e4e7ec;
 $grey-300: #d0d5dd;
 $grey-400: #98a2b3;
@@ -27,3 +27,8 @@ $grey-900: #101828;
 // NEUTRALS
 $white: #ffffff;
 $black: #000000;
+
+// BORDER-RADIUS
+$radius-default: 0.8rem;
+$radius-full: 999.9rem;
+$radius-rounded: 50%;
