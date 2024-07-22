@@ -1,0 +1,112 @@
+main.heroSection {
+    margin-top: 9.6rem;
+
+    .gridWrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 6.4rem;
+
+        .textContent {
+            .headingContent {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 1.6rem;
+
+                .badgeGroup {
+                    background: $brand-50;
+                    padding: 0.4rem 1rem 0.4rem 0.4rem;
+                    border-radius: $radius-full;
+
+                    display: flex;
+                    align-items: center;
+                    gap: 1.2rem;
+
+                    .badge {
+                        padding: 0.2rem 1rem;
+                        background: $white;
+                        border: 0.1rem solid $brand-200;
+                        border-radius: $radius-full;
+                    }
+
+                    span {
+                        display: flex;
+                        align-items: center;
+                        gap: 0.4rem;
+
+                        font-size: 1.4rem;
+                        font-weight: 500;
+                        color: $brand-700;
+
+                        svg {
+                            width: 1.6rem;
+                            height: 1.6rem;
+                            color: $brand-500;
+                        }
+                    }
+                }
+
+                h1 {
+                    font-size: 6rem;
+                    font-weight: 600;
+                }
+
+                p {
+                    width: 100%;
+                    max-width: 76.8rem;
+
+                    font-size: 2rem;
+                    line-height: 3rem;
+                    text-align: center;
+                }
+            }
+
+            .actionButtons {
+                margin-top: 4.8rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 1.2rem;
+
+                button.secondaryBtn {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 1.2rem;
+                    padding: 1.6rem 2.8rem;
+                    background: $white;
+                    border: 1px solid $grey-300;
+                    border-radius: $radius-default;
+                    color: $grey-700;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    line-height: 2.8rem;
+                    transition: background 0.3s ease;
+                    &:hover {
+                        background: $grey-100;
+                    }
+                }
+
+                button.primaryBtn {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 1.2rem;
+                    padding: 1.6rem 2.8rem;
+                    background: $brand-600;
+                    border: 1px solid $brand-600;
+                    border-radius: $radius-default;
+                    color: $white;
+                    font-size: 1.8rem;
+                    font-weight: 500;
+                    line-height: 2.8rem;
+                    transition: background 0.3s ease;
+                    &:hover {
+                        background: $brand-700;
+                        border: 1px solid $brand-700;
+                    }
+                }
+            }
+        }
+    }
+}
