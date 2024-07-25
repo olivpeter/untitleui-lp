@@ -109,4 +109,12 @@ main.heroSection {
             }
         }
     }
+
+    hr {
+        border: 0.1rem solid $grey-100;
+        width: 100%;
+        max-width: 124.8rem;
+        padding: 0 1.6rem;
+        margin: 0 auto;
+    }
 }

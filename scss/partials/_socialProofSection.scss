@@ -1,0 +1,30 @@
+.socialProofSection {
+    .gridWrapper {
+        padding: 9.6rem 1.6rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+
+        p {
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            font-weight: 500;
+            color: $grey-600;
+            text-align: center;
+        }
+
+        .logos {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+    hr {
+        border: 0.1rem solid $grey-100;
+        width: 100%;
+        max-width: 124.8rem;
+        padding: 0 1.6rem;
+        margin: 0 auto;
+    }
+}
